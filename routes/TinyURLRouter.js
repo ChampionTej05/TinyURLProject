@@ -2,11 +2,12 @@ import {
     Router
 } from 'express';
 import {
-    CreateTinyURL
+    CreateTinyURL,
+    GetTinyURL
 } from '../controllers/TinyURLController';
 const TinyURLRouter = new Router();
 
-// TinyURLRouter.get('/get-url');
+TinyURLRouter.get('/get-url/:code', GetTinyURL);
 
 TinyURLRouter.post('/create-url', CreateTinyURL);
 

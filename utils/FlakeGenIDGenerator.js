@@ -14,14 +14,17 @@ import FlakeGenId from 'flake-idgen';
 class FlakeGenIDGenerator {
 
     constructor() {
-        if (!FlakeGenIDGenerator.instance) {
-            FlakeGenIDGenerator.instance = new FlakeGenId();
-        }
+
 
     }
 
     static getInstance() {
+        if (!FlakeGenIDGenerator.instance) {
+            FlakeGenIDGenerator.instance = new FlakeGenId();
+            return FlakeGenIDGenerator.instance;
+        }
         return FlakeGenIDGenerator.instance;
+
     }
 }
 

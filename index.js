@@ -13,10 +13,10 @@ mongoConnection.on('error', (err) => console.error('Error in DB connection'))
 const app = express();
 
 app.use(bodyParser.urlencoded({
-    extended: false
+    extended: true
 }));
 // parse application/json
-// app.use(bodyParser.json());
+app.use(bodyParser.json());
 
 
 // app.use('/user', function(req, res, next) {
