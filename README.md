@@ -3,6 +3,8 @@ This is learning project regarding url shortner.
 
 This tries to implement simplest form of URL shortner to run in single node server using node js framework and mongoDB as database.
 
+Github Page for the Project : https://championtej05.github.io/TinyURLProject/ 
+
 ## Following things are implemented in small tasks 
 
 1. 64 Bit unique ID generated which can scale well in distributed system and avoid collision for traffic rate of 100 million URL encoding/day for next ~70 years 
