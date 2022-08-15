@@ -22,7 +22,7 @@ title: Rakshit Kathawate
 email: rkathawate098@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Portfolio built using Jekyll hosted with Github.io
-baseurl: "TinyUrl_Project" # the subpath of your site, e.g. /blog
+baseurl: "/TinyURLProject" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: ChampionTej05
 
